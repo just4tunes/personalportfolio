@@ -121,7 +121,7 @@ const Contact = () => {
 
             {/* Submit Button */}
             <div className="md:col-span-2 flex ">
-              <ReusableButton
+              <ReusableButton className="pl-6"
                 initialText=" SEND MESSAGE"
                 doneText="COMPLETED"
               />

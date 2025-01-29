@@ -36,16 +36,16 @@ const Skills = () => {
             <span className="text-xl font-bold text-white">{count}%</span>
           </div>
         </div>
-        <p className="text-pink-700 mt-4">{skill}</p>
+        <p className="text-white mt-4">{skill}</p>
       </div>
     );
   };
 
   return (
     <div className="w-full h-[100vh] bg-primary px-3 mt-20 sm:px-0">
-      <h1 className="font-black text-white text-[3vh] sm:items-center justify-center lg:mr-8 flex">MY SKILLS</h1>
+      <h1 className="font-black text-white text-[3vh] sm:items-center justify-center lg:mr-8 flex ">MY SKILLS</h1>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3   md:ml-[10vh] md:mt-10  lg:ml-[30vh] lg:px-9 gap-5">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3  mt-8 md:ml-[10vh] md:mt-10  lg:ml-[30vh] lg:px-9 gap-5">
   {/* Circles */}
   <SkillLoader percentage={95} skill="HTML" />
   <SkillLoader percentage={90} skill="CSS" />

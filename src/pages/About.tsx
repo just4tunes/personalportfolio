@@ -40,36 +40,36 @@ const About = () => {
     {/* Text Rows */}
     <div className="flex gap-12 mt-7 sm:gap-15">
       <div className="ml-2 sm:flex sm:gap-3">
-        <h1 className="text-white  text-[2.5vh]">First Name:</h1>
+        <h1 className="text-white  text-sm lg:text-lg">First Name:</h1>
         <p className="text-customGray2 text-[2.5vh]">Fortune</p>
       </div>
       <div className="sm:flex sm:gap-3">
-        <h1 className="text-white  text-[2.5vh]">Last Name:</h1>
-        <p className="text-customGray2 text-[2.5vh]">Ken-Osuh</p>
+        <h1 className="text-white text-sm lg:text-lg">Last Name:</h1>
+        <p className="text-customGray2 text-sm lg:text-lg">Ken-Osuh</p>
       </div>
     </div>
     {/* Second Row */}
     <div className="flex gap-[15.4vh] mt-7 sm:gap-[15.2vh] lg:gap-[21.2vh]">
       <div className="ml-2 sm:flex sm:gap-3">
-        <h1 className="text-white  text-[2.5vh]">Age:</h1>
-        <p className="text-customGray2 text-[2.5vh]">21</p>
+        <h1 className="text-white  text-sm lg:text-lg">Age:</h1>
+        <p className="text-customGray2 text-sm lg:text-lg">21</p>
       </div>
       <div className="sm:flex">
-        <h1 className="text-white  text-[2.5vh] sm:ml-[6vh] lg:ml-0">
+        <h1 className="text-white  text-sm lg:text-lg sm:ml-[6vh] lg:ml-0">
           Nationality:
         </h1>
-        <p className="text-customGray2 text-[2.5vh]">Nigerian</p>
+        <p className="text-customGray2 text-sm lg:text-lg">Nigerian</p>
       </div>
     </div>
     {/* Third Row */}
     <div className="flex gap-[7vh] mt-7">
       <div className="ml-2 sm:flex">
-        <h1 className="text-white  text-[2.5vh]">Freelance:</h1>
-        <p className="text-green-500 text-[2.5vh]">Available</p>
+        <h1 className="text-white  text-sm lg:text-lg">Freelance:</h1>
+        <p className="text-green-500 text-sm lg:text-lg">Available</p>
       </div>
       <div className="sm:flex">
-        <h1 className="text-white text-[2.5vh] sm:ml-1">Address:</h1>
-        <p className="text-customGray2 text-[2.5vh]">
+        <h1 className="text-white text-sm lg:text-lg sm:ml-1">Address:</h1>
+        <p className="text-customGray2 text-sm lg:text-lg">
           Glim Estate connerstone
         </p>
       </div>
@@ -77,12 +77,12 @@ const About = () => {
     {/* Fourth Row */}
     <div className="flex gap-12 mt-7">
       <div className="ml-2 sm:flex">
-        <h1 className="text-white  text-[2.5vh]">Phone:</h1>
-        <p className="text-customGray2 text-[2.5vh]">09041329588</p>
+        <h1 className="text-white  text-sm lg:text-lg">Phone:</h1>
+        <p className="text-customGray2 text-sm lg:text-lg">09041329588</p>
       </div>
       <div className="sm:flex">
-        <h1 className="text-white  text-[2.5vh] sm:ml-4">Email:</h1>
-        <p className="text-customGray2 max-w-10 text-[2.5vh]">
+        <h1 className="text-white  text-sm lg:text-lg sm:ml-4">Email:</h1>
+        <p className="text-customGray2 max-w-10 text-sm lg:text-lg">
           fortuneosuh0
         </p>
       </div>
@@ -90,7 +90,8 @@ const About = () => {
 
     {/* Button */}
     <div className="w-[60%] pt-8 ml-2">
-      <ReusableButton initialText=" View more" doneText="COMPLETED" />
+    <ReusableButton initialText="DOWNLOAD CV" doneText="COMPLETED" className="pl-4" />
+
     </div>
   </div>
 

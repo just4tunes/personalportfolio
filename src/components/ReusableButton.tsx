@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 
-const ReusableButton = ({ initialText, doneText }) => {
+const ReusableButton = ({ initialText, doneText, className }) => {
   // State to toggle the button's animation
   const [isActive, setIsActive] = useState(false);
 
@@ -14,7 +14,7 @@ const ReusableButton = ({ initialText, doneText }) => {
     <div className="mr-[6vh] mt-4">
       <button
         onClick={toggleButton}
-        className={`relative inline-flex items-center justify-center w-[120%] h-12 rounded-full overflow-hidden transition-all duration-300 border border-secondary`}
+        className={`relative inline-flex items-center justify-center w-auto h-12 rounded-full overflow-hidden transition-all duration-300 border border-secondary ${className}`}
       >
         {/* Filler animation (Right to Left) */}
         <div
@@ -34,7 +34,7 @@ const ReusableButton = ({ initialText, doneText }) => {
 
           {/* Text when inactive */}
           <span
-            className={`text-white font-mono transition-opacity duration-300 text-[2.5vh] ${
+            className={`text-white transition-opacity duration-300 text-[2.2vh] ${
               isActive ? "opacity-0" : "opacity-100"
             }`}
           >
@@ -56,3 +56,4 @@ const ReusableButton = ({ initialText, doneText }) => {
 };
 
 export default ReusableButton;
+
