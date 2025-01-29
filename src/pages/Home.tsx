@@ -18,7 +18,7 @@ const Home = () => {
           <h1 class="text-secondary mt-6 text-xl font-black   sm:text-[5vh] lg:mt-14 2xl:text-[6vh]">
             I'M FORTUNE KEN-OSUH
           </h1>
-          <p className="text-[3vh] text-white font-black font-mono sm:text-[5vh] sm:pt-2 " >WEB DEVELOPER</p>
+          <p className="text-[3vh] text-white font-black  sm:text-[4vh] sm:pt-2 " >WEB DEVELOPER</p>
           <span className='text-center pt-4 text-white text-[2.4vh] leading-7 sm:text-[3vh] sm:px-2 lg:w-[80%] lg:leading-8 lg:text-left '>
             I'm a Nigerian based front-end web-developer focused on crafting
             clean $ and user-friendly experiences, i am also passionate about
