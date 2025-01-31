@@ -6,13 +6,13 @@ const Contact = () => {
   return (
     <div className="w-full h-[200vh] lg:h-auto 2xl:h-[100vh] bg-primary">
       <div className="relative text-center pt-10">
-        <p className="absolute text-[8vh] text-customGray font-black top-[80%] left-[20%] transform -translate-x-[50%] -translate-y-[50%] whitespace-nowrap z-0 sm:top-[50%] sm:left-[50%]">
+        <p className="absolute text-[7vh] text-customGray font-black top-[80%] left-[20%] transform -translate-x-[50%] -translate-y-[50%] whitespace-nowrap z-0 sm:top-[50%] sm:left-[50%]">
           GET IN TOUCH
         </p>
 
         <p className="relative text-[3.8vh] font-black z-10 mr-[25vh] sm:mr-0 sm:text-center">
-          <span className="text-white sm:text-[8vh] font-black">GET</span>
-          <span className="text-secondary px-1 sm:text-[8vh] font-black">
+          <span className="text-white sm:text-[7vh] font-black">GET</span>
+          <span className="text-secondary px-1 sm:text-[7vh] font-black">
             IN TOUCH
           </span>
         </p>

@@ -4,7 +4,7 @@ import SlidingButton from "../components/SlidingButton.tsx";
 
 const Home = () => {
   return (
-    <div class="w-full h-[110vh] bg-primary md:h-[100vh] lg:h-[100vh] lg:bg-[linear-gradient(to_bottom_right,theme(colors.secondary)_35%,theme(colors.primary)_30%)]">
+    <div class="w-full h-[95vh]    bg-primary md:h-[100vh] lg:h-[100vh] lg:bg-[linear-gradient(to_bottom_right,theme(colors.secondary)_35%,theme(colors.primary)_30%)]">
       <div class="px-7 flex flex-col items-center justify-center lg:flex-row ">
         <div className="w-52 h-52 rounded-full overflow-hidden mt-5 lg:w-[40%] lg:h-[80vh] lg:mt-20 2xl:w-[35%]">
           <img
