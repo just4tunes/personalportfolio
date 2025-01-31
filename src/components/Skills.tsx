@@ -42,10 +42,10 @@ const Skills = () => {
   };
 
   return (
-    <div className="w-full h-[100vh] bg-primary px-3 mt-20 sm:px-0">
-      <h1 className="font-black text-white text-[3vh] sm:items-center justify-center lg:mr-8 flex ">MY SKILLS</h1>
+    <div className="w-full h-[100vh] bg-primary px-3 mt-20 sm:px-0  ">
+      <h1 className="font-black text-white text-[3vh] sm:items-center justify-center lg:mr-10 xl:mr-20   flex ">MY SKILLS</h1>
 
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3  mt-8 md:ml-[10vh] md:mt-10  lg:ml-[30vh] lg:px-9 gap-5">
+      <div className=" sm:px-10 sm:ml-28  2xl:pr-5  xl:px-20 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3  mt-8 md:ml-[10vh] md:mt-10  lg:ml-[13vh] lg:px-9 gap-3">
   {/* Circles */}
   <SkillLoader percentage={95} skill="HTML" />
   <SkillLoader percentage={90} skill="CSS" />

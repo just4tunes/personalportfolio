@@ -40,57 +40,57 @@ const About = () => {
     {/* Text Rows */}
     <div className="flex gap-12 mt-7 sm:gap-15">
       <div className="ml-2 sm:flex sm:gap-3">
-        <h1 className="text-white  text-sm lg:text-lg">First Name:</h1>
-        <p className="text-customGray2 text-[2.5vh]">Fortune</p>
+        <h1 className="text-white   sm:text-lg lg:text-lg">First Name:</h1>
+        <p className="text-customGray2 text-[2.5vh] sm:text-[2.3vh]">Fortune</p>
       </div>
       <div className="sm:flex sm:gap-3">
-        <h1 className="text-white text-sm lg:text-lg">Last Name:</h1>
-        <p className="text-customGray2 text-sm lg:text-lg">Ken-Osuh</p>
+        <h1 className="text-white   sm:text-lg lg:text-lg ">Last Name:</h1>
+        <p className="text-customGray2 mt-1  text-[2.3vh] sm:text-[2.3vh] sm:mt-0 lg:text-lg">Ken-Osuh</p>
       </div>
     </div>
     {/* Second Row */}
-    <div className="flex gap-[15.4vh] mt-7 sm:gap-[15.2vh] lg:gap-[21.2vh]">
+    <div className="flex    gap-[11vh] mt-7 sm:gap-[15.2vh] lg:gap-[18vh]">
       <div className="ml-2 sm:flex sm:gap-3">
-        <h1 className="text-white  text-sm lg:text-lg">Age:</h1>
-        <p className="text-customGray2 text-sm lg:text-lg">21</p>
+        <h1 className="text-white   sm:text-lg lg:text-lg">Age:</h1>
+        <p className="text-customGray2 text-[2.3vh] sm:text-[2.3vh]  lg:text-lg">21</p>
       </div>
-      <div className="sm:flex">
-        <h1 className="text-white  text-sm lg:text-lg sm:ml-[6vh] lg:ml-0">
+      <div className="sm:flex sm:gap-3 ">
+        <h1 className="text-white  sm:text-lg lg:text-lg     ">
           Nationality:
         </h1>
-        <p className="text-customGray2 text-sm lg:text-lg">Nigerian</p>
+        <p className="text-customGray2 mt-1  text-[2.3vh] sm:text-[2.3vh] sm:mt-0 lg:text-lg">Nigerian</p>
       </div>
     </div>
     {/* Third Row */}
-    <div className="flex gap-[7vh] mt-7">
-      <div className="ml-2 sm:flex">
-        <h1 className="text-white  text-sm lg:text-lg">Freelance:</h1>
-        <p className="text-green-500 text-sm lg:text-lg">Available</p>
+    <div className="flex gap-[6vh] mt-7">
+      <div className="ml-2 sm:flex sm:gap-3 ">
+        <h1 className="text-white   sm:text-lg lg:text-lg ">Freelance:</h1>
+        <p className="text-green-500  text-[2.3vh] sm:text-lg lg:text-lg">Available</p>
       </div>
-      <div className="sm:flex">
-        <h1 className="text-white text-sm lg:text-lg sm:ml-1">Address:</h1>
-        <p className="text-customGray2 text-sm lg:text-lg">
+      <div className="sm:flex sm:gap-3">
+        <h1 className="text-white  sm:text-lg lg:text-lg ">Address:</h1>
+        <p className="text-customGray2 text-[2.3vh] sm:text-[2.3vh] lg:text-lg">
           Glim Estate connerstone
         </p>
       </div>
     </div>
     {/* Fourth Row */}
-    <div className="flex gap-12 mt-7">
-      <div className="ml-2 sm:flex">
-        <h1 className="text-white  text-sm lg:text-lg">Phone:</h1>
-        <p className="text-customGray2 text-sm lg:text-lg">09041329588</p>
+    <div className="flex gap-3 mt-7">
+      <div className="ml-2 sm:flex sm:gap-3">
+        <h1 className="text-white   sm:text-lg lg:text-lg ">Phone:</h1>
+        <p className="text-customGray2 text-[2.3vh] sm:text-lg lg:text-lg">09041329588</p>
       </div>
-      <div className="sm:flex">
-        <h1 className="text-white  text-sm lg:text-lg sm:ml-4">Email:</h1>
-        <p className="text-customGray2 max-w-10 text-sm lg:text-lg">
-          fortuneosuh0
+      <div className="sm:flex sm:gap-3">
+        <h1 className="text-white   sm:text-lg lg:text-lg ">Email:</h1>
+        <p className="text-customGray2 text-[2.3vh] sm:text-[2.3vh] lg:text-lg">
+          fortuneosuh04@gmail
         </p>
       </div>
     </div>
 
     {/* Button */}
     <div className="w-[60%] pt-8 ml-2">
-    <ReusableButton initialText="DOWNLOAD CV" doneText="COMPLETED" className="pl-4" />
+    <ReusableButton initialText="DOWNLOAD" doneText="COMPLETED" className="pl-5 " />
 
     </div>
   </div>
